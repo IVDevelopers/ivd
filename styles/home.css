@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+html {
+    --color-gray-50: rgb(217, 215, 215);
+    --color-gray-100: rgb(168, 168, 168);
+    --color-gray-300: rgb(126, 126, 126);
+    --color-gray-400: rgb(99, 98, 98);
+    --color-gray-500: rgb(70, 68, 68);
+    --color-gray-600: rgb(47, 46, 46);
+    --color-gray-700: rgb(29, 27, 27);
+
+    --color-primary-50: rgb(254, 236, 234);
+    --color-primary-100:rgb(248, 194, 187);
+    --color-primary-200: rgb(240, 148, 136);
+    --color-primary-400:rgb(240, 121, 106);
+    --color-primary-500: rgb(246, 105, 86);
+    --color-primary-700: rgb(236, 77, 55);
+    --color-primary-200-contrast: rgb(104, 8, 3);
+    --color-primary-500-contrast: rgb(255, 255, 255);
+
+    --color-error-100: #ffc0b4;
+    --color-error-500: #961e00;
+  
+
+    --color-primary-500-bg: rgb(63, 60, 58);
+
+    --space-1: 0.25rem;
+    --space-2: 0.5rem;
+    --space-4: 1rem;
+    --space-6: 1.5rem;
+    --space-8: 2rem;
+
+    --border-radius-small: 4px;
+    --border-radius-medium: 6px;
+    --shadow-medium: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration:none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    background-color: var(--color-primary-500-contrast);
+}
+
+header{
+    width:100%;
+}
+
+#header-menu{
+    display:flex;
+    justify-content: space-around;
+    width:100%;
+    height: 3.8rem;
+    background-color: var(--color-gray-700);
+}
+
+.erroll{
+    width:16rem;
+    height: 3.7rem;
+    background-color: var(--color-gray-50);
+}
+
+#erroll-kids{
+    width:100%;
+    text-align:center;
+    color:var(--color-primary-700);
+    font-weight: bold;
+    font-family:'Roboto',sans-serif;
+}
+
+#erroll-kids h2{
+    padding:0;
+    margin:0;
+    font-size:1.2rem;
+}
+
+#erroll-kids p{
+    padding:0;
+    margin:0.1rem;
+    font-size:0.75rem;
+    font-family:'Roboto',sans-serif;
+    font-weight: bold;
+}
+
+#erroll-kids p a{
+    color:var(--color-primary-500-contrast);
+    background-color: var(--color-gray-700);
+    padding: 0.1rem 1.0rem;
+    margin-right: 1rem;
+}
+
+#header-menu .contacts{
+    display:flex;
+    justify-content: space-between;
+    color:white;
+    width:300px;
+}
+
+#header-menu .contacts div a{
+    color:var(--color-primary-700);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+#header-menu .contacts div a i{
+    color:var(--color-primary-50);
+    margin:0.4rem;
+}
+
+#header-menu .contacts div a:hover{
+    color:var(--color-primary-200);
+
+}
+
+#header-menu .social-media__icon{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:150px;
+}
+
+#header-menu .social-media__icon a{
+    color:var(--color-primary-50);
+}
+
+#header-menu .social-media__icon a:hover{
+    color:var(--color-primary-100);
+}
